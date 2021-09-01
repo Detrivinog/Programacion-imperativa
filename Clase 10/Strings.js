@@ -1,3 +1,4 @@
+// Repaso logico
 let numbers =[22, 33, 54, 66, 72]
 console.log(numbers[numbers.length])
 
@@ -10,8 +11,10 @@ grupoDeAmigos = [ [45, 89, 0], ["Digital", "House", true], ["string",
 "123","false", 54, true, str] ]
 console.log(grupoDeAmigos[2][grupoDeAmigos[2].length - 1])
 
+// Punto 1
 let peliculas = ["star wars", "totoro", "rocky", "pulp fiction", "la vida es bella"]
 
+// Punto 2
 function pasarMayuscula(arreglo){
     let arregloModificado = []
     for(let index = 0; index < arreglo.length; index++){
@@ -20,7 +23,7 @@ function pasarMayuscula(arreglo){
     return arregloModificado
 }
 
-// Punto 4
+// Punto 3
 
 let peliculasMayusculas = pasarMayuscula(peliculas)
 console.log(peliculasMayusculas)
