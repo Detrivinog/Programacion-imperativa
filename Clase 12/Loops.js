@@ -64,8 +64,10 @@ console.log(sumArray(["hola", "David"]))
 console.log(typeof "")
 
 
+// Repaso con Ana
+
 let personajes = ["nemo", "batman", "ironman"];
-let peliculas = ["star wars", "totoro", "rocky", "pulp fiction", "la vida es bella", personajes]
+let peliculas = ["star wars", "totoro", "rocky", "pulp fiction", "la vida es bella", ["nemo", "batman", "ironman"]]
 
 console.log(typeof peliculas[5])
 
